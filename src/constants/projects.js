@@ -41,6 +41,24 @@ export const data = [
   },
   {
     id: 3,
+    featured: true,
+    name: "MovieDB",
+    description:
+      "This portfolio was made with the Gatsby framework, perfect for fast websites. Mobile Responsive.",
+    stack: ["Gatsby", "CSS"],
+    icons: [
+      {
+        icon: <FaGithub className="social-icon"></FaGithub>,
+        url: "https://github.com/RickSanchez7/portfolio-gatsy",
+      },
+      {
+        icon: <FaShareSquare className="social-icon"></FaShareSquare>,
+        url: "https://portfolio2-gatsby.netlify.app/",
+      },
+    ],
+  },
+  {
+    id: 4,
     featured: false,
     name: "Yoga Website",
     description:

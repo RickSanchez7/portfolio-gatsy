@@ -6,7 +6,7 @@ const Projects = ({ imageQuery, data }) => {
 
   return (
     <section className="section featured-container">
-      {data.map(({ id, name, icons, description, stack }) => (
+      {data.map(({ id, name, icons, description, stack }, index) => (
         <div className={`project-container`} key={name + "k"}>
           <Image
             fluid={images[id - 1].childImageSharp.fluid}
@@ -14,7 +14,7 @@ const Projects = ({ imageQuery, data }) => {
           />
           <div className={`project-info ${id % 2 === 0 ? "card-left" : ""}`}>
             <div className="project-header">
-              <span className="project-number">0{id}.</span>
+              <span className="project-number">0{index + 1}.</span>
               <h3 className="project-name">{name}</h3>
             </div>
             <p className="project-description">{description}</p>

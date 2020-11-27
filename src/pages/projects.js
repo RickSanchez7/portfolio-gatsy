@@ -2,13 +2,13 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 
 import Layout from "../components/Layout";
-import FeaturedProjects from "../components/Projects";
+import Projects from "../components/Projects";
 import { data } from "../constants/projects";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-const Projects = () => {
-  const { image1, image2, image3 } = useStaticQuery(query);
-  const allImages = [image1, image2, image3];
+const ProjectsPage = () => {
+  const { image1, image2, image3, image4 } = useStaticQuery(query);
+  const allImages = [image1, image2, image3, image4];
 
   return (
     <Layout>
@@ -16,7 +16,7 @@ const Projects = () => {
         <h2 className="featured-title">
           All Projects<div className="underline"></div>
         </h2>
-        <FeaturedProjects imageQuery={allImages} data={data} />
+        <Projects imageQuery={allImages} data={data} />
         <AniLink fade to="/" className="btn">
           home
         </AniLink>
@@ -41,7 +41,14 @@ const query = graphql`
         }
       }
     }
-    image3: file(relativePath: { eq: "projects/image-3.png" }) {
+    image3: file(relativePath: { eq: "projects/image-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    image4: file(relativePath: { eq: "projects/image-3.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
@@ -51,4 +58,4 @@ const query = graphql`
   }
 `;
 
-export default Projects;
+export default ProjectsPage;
