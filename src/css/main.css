@@ -431,7 +431,7 @@ NavarBar
 }
 
 .featured-title {
-  padding-bottom: 1rem;
+  padding-top: 2.5rem;
 }
 
 .project-container {
@@ -625,7 +625,7 @@ About Page
 .about-page {
   padding: 5rem 0 0 0;
   background: var(--clr-grey-10);
-  min-height: 700px;
+  min-height: 800px;
   height: calc(100vh - 144px);
 }
 .about-img {
@@ -659,6 +659,12 @@ About Page
     padding: 2rem 0;
   }
 }
+.contact-page {
+  padding: 5rem 0 0 0;
+  background: var(--clr-grey-10);
+  min-height: 500px;
+  height: calc(100vh - 144px);
+}
 
 .contact-center {
   width: 70vw;
@@ -683,6 +689,5 @@ About Page
 @media screen and (max-width: 800px) {
   .contact {
     font-size: 0.75rem;
-    width: 100%;
   }
 }

@@ -14,7 +14,7 @@ import Title from "../components/Title";
 const contact = () => {
   return (
     <Layout>
-      <section className="about-page">
+      <section className="contact-page">
         <div className="contact-center">
           <Title title="Contact" />
           <div className="contact">
@@ -34,13 +34,18 @@ const contact = () => {
             <a
               href="https://www.linkedin.com/in/ricardo-costa-973b92188/"
               rel="noreferrer"
+              target="_blank"
             >
               https://www.linkedin.com/in/ricardo-costa-973b92188/
             </a>
           </div>
           <div className="contact">
             <FaGithub />
-            <a href="https://github.com/RickSanchez7" rel="noreferrer">
+            <a
+              href="https://github.com/RickSanchez7"
+              rel="noreferrer"
+              target="_blank"
+            >
               https://github.com/RickSanchez7
             </a>
           </div>
@@ -49,6 +54,7 @@ const contact = () => {
             <a
               href="https://drive.google.com/file/d/1mZ8Zgcm51bFMqrXz8YbRaJh0W1pYxldD/view"
               rel="noreferrer"
+              target="_blank"
             >
               Curriculum
             </a>
