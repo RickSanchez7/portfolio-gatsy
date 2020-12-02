@@ -26,8 +26,8 @@ export const data = [
     featured: true,
     name: "MovieDB",
     description:
-      "For this React project, we can query a movie from an external Api to display the information of the queried movie. Mobile Responsive.",
-    stack: ["React", "CSS", "Bulma"],
+      "For this React project, we can search for a movie or tv show from an external Api and display the information. Mobile Responsive.",
+    stack: ["React", "CSS", "Bulma", "CI/CD", "Jest/Enzyme"],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
