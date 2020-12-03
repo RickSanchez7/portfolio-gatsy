@@ -124,8 +124,8 @@ button {
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-secundary-1);
+  /* color: var(--clr-primary-1); */
+  background: var(--clr-primary-1);
 }
 .center-btn {
   display: block;
@@ -335,6 +335,7 @@ NavarBar
   text-transform: capitalize;
   text-align: left;
 }
+
 .hero-info h1 {
   color: var(--clr-grey-1);
 }
@@ -350,12 +351,12 @@ NavarBar
   width: 7rem;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
   .section {
-    padding: 2rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
   }
   .hero {
-    height: 70vh;
+    height: 60vh;
     min-height: 300px;
   }
   .hero-img {
@@ -367,6 +368,9 @@ NavarBar
   }
   .hero::before {
     position: unset;
+  }
+  .hero-info {
+    margin-bottom: 10rem;
   }
 }
 

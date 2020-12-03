@@ -52,7 +52,7 @@ const contact = () => {
           <div className="contact">
             <FaNewspaper />
             <a
-              href="https://drive.google.com/file/d/1mZ8Zgcm51bFMqrXz8YbRaJh0W1pYxldD/view"
+              href="https://drive.google.com/file/d/1mZ8Zgcm51bFMqrXz8YbRaJh0W1pYxldD/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
             >

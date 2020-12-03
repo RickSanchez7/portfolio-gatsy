@@ -42,7 +42,7 @@ export const data = [
   {
     id: 3,
     featured: true,
-    name: "MovieDB",
+    name: "Portfolio",
     description:
       "This portfolio was made with the Gatsby framework, perfect for fast websites. Mobile Responsive.",
     stack: ["Gatsby", "CSS"],
