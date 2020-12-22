@@ -541,12 +541,20 @@ NavarBar
 }
 
 @media screen and (max-width: 1000px) {
+  .project-header {
+    margin-bottom: 0.5rem;
+  }
+
   .project-info p {
     font-size: 0.8rem;
   }
 
+  .stack {
+    padding-bottom: 0.5rem;
+  }
+
   .project-stack {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-bottom: 0.5rem;
   }
 }

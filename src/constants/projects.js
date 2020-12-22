@@ -26,16 +26,25 @@ export const data = [
     featured: true,
     name: "MovieDB",
     description:
-      "For this React project, we can search for a movie or tv show from an external Api and display the information. Mobile Responsive.",
-    stack: ["React", "CSS", "Bulma", "CI/CD", "Jest/Enzyme"],
+      "For this React project, we can search for a movie or tv show from an external Api and display the information. Backend for Register/Sign In. Mobile Responsive.",
+    stack: [
+      "React",
+      "CSS",
+      "Bulma",
+      "CI/CD",
+      "Jest/Enzyme",
+      "typescript",
+      "node/express",
+      "mongodb",
+    ],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
-        url: "https://github.com/RickSanchez7/MovieSeach-DB",
+        url: "https://github.com/RickSanchez7/FullStack-Movie-Search",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
-        url: "https://moviesearch-db.netlify.app/",
+        url: "https://movie-fullstack.herokuapp.com/",
       },
     ],
   },
