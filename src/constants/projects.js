@@ -29,7 +29,7 @@ export const data = [
       "For this React project, we can search for a movie or tv show from an external Api and display the information. Backend for Register/Sign In. Mobile Responsive.",
     stack: [
       "React",
-      "CSS",
+      "SCSS",
       "Bulma",
       "CI/CD",
       "Jest/Enzyme",
