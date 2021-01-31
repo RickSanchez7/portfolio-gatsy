@@ -19,8 +19,13 @@ const About = () => {
           <article className="about-text">
             <Title title="About me" />
             <p>
-              I love to code, solve problems with pure code and create something
-              from nothing.
+              Self-taught and passionate, with experience on fullstack web
+              applications development.
+            </p>
+            <p>
+              I started programming out of curiosity. That led me into HTML, CSS
+              & JS which eventually lead me to pursuit software development as a
+              career path.
             </p>
             <Title title="Skills" />
             <div className="stack">

@@ -24,7 +24,7 @@ const FeaturedProjects = () => {
   );
 };
 
-const query = graphql`
+export const query = graphql`
   {
     image1: file(relativePath: { eq: "projects/image-1.png" }) {
       childImageSharp {

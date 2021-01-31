@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="underline"></div>
             <h1>i'm ricardo</h1>
             <h4>web Developer</h4>
-            <AniLink to="/contact" className="btn">
+            <AniLink fade to="/contact" className="btn">
               contact me
             </AniLink>
             <SocialLinks />

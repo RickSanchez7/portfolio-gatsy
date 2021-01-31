@@ -18,6 +18,7 @@ export const data = [
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://roupas-live.netlify.app/",
+        demo: "Live demo",
       },
     ],
   },
@@ -45,6 +46,7 @@ export const data = [
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://movie-fullstack.herokuapp.com/",
+        demo: "Live demo",
       },
     ],
   },
@@ -63,6 +65,7 @@ export const data = [
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://portfolio2-gatsby.netlify.app/",
+        demo: "Live demo",
       },
     ],
   },
@@ -81,6 +84,7 @@ export const data = [
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://yoga-master-website.netlify.app/",
+        demo: "Live demo",
       },
     ],
   },

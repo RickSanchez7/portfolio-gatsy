@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "gatsby-image";
+import Img from "gatsby-image";
 
 const Projects = ({ imageQuery, data }) => {
   const images = [...imageQuery];
@@ -8,7 +8,8 @@ const Projects = ({ imageQuery, data }) => {
     <section className="section featured-container">
       {data.map(({ id, name, icons, description, stack }, index) => (
         <div className={`project-container`} key={name + "k"}>
-          <Image
+          <Img
+            loading={"lazy"}
             fluid={images[id - 1].childImageSharp.fluid}
             className={`project-image ${id % 2 === 0 ? "left" : ""}`}
           />
@@ -26,7 +27,7 @@ const Projects = ({ imageQuery, data }) => {
               ))}
             </div>
             <div className="icons">
-              {icons.map(({ url, icon }, index) => (
+              {icons.map(({ url, icon, demo }, index) => (
                 <a
                   key={index + 100}
                   href={url}
@@ -34,7 +35,7 @@ const Projects = ({ imageQuery, data }) => {
                   rel="noreferrer"
                   className="social-link-project"
                 >
-                  {icon}
+                  {icon} {demo ? <h6>{demo}</h6> : ""}
                 </a>
               ))}
             </div>

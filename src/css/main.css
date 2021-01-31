@@ -360,7 +360,7 @@ NavarBar
     min-height: 300px;
   }
   .hero-img {
-    width: 0%;
+    display: none;
   }
   .hero-center {
     position: absolute;
@@ -530,7 +530,13 @@ NavarBar
   margin-bottom: 1rem;
 }
 
+.icons {
+  display: flex;
+}
+
 .social-link-project {
+  display: flex;
+  align-items: center;
   color: var(--clr-primary-2);
   margin-right: 0.75rem;
   font-size: 1.5rem;
@@ -538,6 +544,11 @@ NavarBar
 }
 .social-link-project:hover {
   color: var(--clr-primary-4);
+}
+
+.social-link-project h6 {
+  margin-left: 3px;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 1000px) {
