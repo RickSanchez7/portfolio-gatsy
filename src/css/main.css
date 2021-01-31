@@ -653,12 +653,15 @@ About Page
 }
 .about-img {
   margin-bottom: 2rem;
-  width: 15rem;
+  flex: 1;
+  object-fit: contain;
+  /* height: unset; */
 }
 .about-text {
   margin-bottom: 1rem;
   margin-left: 1rem;
   text-align: left;
+  flex: 2;
 }
 .about-text p {
   line-height: 2;
@@ -666,7 +669,9 @@ About Page
 }
 .about-center {
   display: flex;
+  /* width: 90%; */
   padding-top: 4rem;
+  align-items: center;
 }
 
 @media screen and (max-width: 800px) {
