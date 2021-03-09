@@ -115,8 +115,9 @@ button {
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+  transition: border-radius, height, 1s ease;
   font-size: 0.875rem;
   border: 2px solid transparent;
   cursor: pointer;
@@ -127,6 +128,75 @@ button {
   /* color: var(--clr-primary-1); */
   background: var(--clr-primary-1);
 }
+
+.contact-me-container {
+  position: absolute;
+}
+
+.contact-me {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 180px;
+  bottom: 0;
+  min-height: 2.4rem;
+  min-width: 151px;
+  max-width: 151px;
+  transition: all 0.8s ease-out;
+  z-index: 5;
+}
+
+.btn-transform {
+  display: flex;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  min-width: 75px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: calc(100vh - 7rem);
+  bottom: 2rem;
+  /* right: 0; */
+  left: calc(100vw - 7rem);
+  z-index: 10;
+  /* transition: all 5s ease; */
+}
+
+/* @media screen and (max-height: 400px) {
+  .btn-transform {
+    top: 35vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-transform {
+    left: 87vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .btn-transform {
+    left: 84vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn-transform {
+    left: 79vw;
+  }
+} */
+
+@media screen and (max-width: 800px) {
+  .btn-transform {
+    left: calc(100vw - 5rem);
+    top: calc(100vh - 5rem);
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+  }
+}
+
 .center-btn {
   display: block;
   width: 12rem;
@@ -142,7 +212,7 @@ button {
 
 /* social links */
 .social-links {
-  margin-top: 2rem;
+  margin-top: 3.8rem;
   display: flex;
   justify-content: space-around;
 }
@@ -655,7 +725,6 @@ About Page
   margin-bottom: 2rem;
   flex: 1;
   object-fit: contain;
-  /* height: unset; */
 }
 .about-text {
   margin-bottom: 1rem;
@@ -669,7 +738,6 @@ About Page
 }
 .about-center {
   display: flex;
-  /* width: 90%; */
   padding-top: 4rem;
   align-items: center;
 }
