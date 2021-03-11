@@ -210,7 +210,7 @@ button {
   .btn-transform {
     /* left: calc(100vw - 5rem);
     top: calc(100vh - 5.5rem); */
-    bottom: 6rem;
+    bottom: 4rem;
     left: calc(100% - 5rem);
     height: 60px;
     width: 60px;
