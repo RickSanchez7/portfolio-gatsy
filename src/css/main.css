@@ -136,19 +136,26 @@ button {
     font-size: 0.75rem;
   }
 }
+.button-container {
+  position: relative;
+}
 
 .contact-me-container {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .contact-me {
   position: absolute;
   /* display: flex;
   flex-direction: row; */
-  top: 0;
+  /* top: 0;*/
   left: 0;
-  right: 180px;
-  bottom: 0;
+  /* right: 4rem; */
+  bottom: calc(100% - 2rem);
   min-height: 2.3rem;
   min-width: 151px;
   max-width: 151px;
@@ -166,13 +173,12 @@ button {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: calc(100vh - 7rem);
-  bottom: 2rem;
-  right: 7rem;
-  left: calc(100vw - 7rem);
+  /* top: calc(100vh - 7rem); */
+  bottom: 4rem;
+  /* right: 7rem; */
+  left: calc(100% - 7rem);
   z-index: 10;
   /* transition: all 5s ease; */
-  animation-name: floatdown;
 }
 
 /* @media screen and (max-height: 400px) {
@@ -201,8 +207,8 @@ button {
 
 @media screen and (max-width: 800px) {
   .btn-transform {
-    left: calc(100vw - 5rem);
-    top: calc(100vh - 5.5rem);
+    /* left: calc(100vw - 5rem);
+    top: calc(100vh - 5.5rem); */
     height: 60px;
     width: 60px;
     min-width: 60px;

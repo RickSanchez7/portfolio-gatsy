@@ -44,10 +44,12 @@ const Hero = () => {
             <div className="underline"></div>
             <h1>i'm ricardo</h1>
             <h4>web Developer</h4>
-            <div className="contact-me-container">
-              <Link to="/contact" className={`btn contact-me ${add}`}>
-                {transform ? <HiOutlineMail size={50} /> : "contact me"}
-              </Link>
+            <div className="button-container">
+              <div className="contact-me-container">
+                <Link to="/contact" className={`btn contact-me ${add}`}>
+                  {transform ? <HiOutlineMail size={50} /> : "contact me"}
+                </Link>
+              </div>
             </div>
             <SocialLinks />
           </div>
