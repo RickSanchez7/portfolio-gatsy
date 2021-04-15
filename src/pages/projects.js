@@ -7,8 +7,8 @@ import { data } from "../constants/projects";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const ProjectsPage = () => {
-  const { image1, image2, image3, image4 } = useStaticQuery(query);
-  const allImages = [image1, image2, image3, image4];
+  const { image1, image2, image3, image4, image5 } = useStaticQuery(query);
+  const allImages = [image1, image2, image3, image4, image5];
 
   return (
     <Layout>
@@ -48,7 +48,15 @@ const query = graphql`
         }
       }
     }
-    image4: file(relativePath: { eq: "projects/image-3.png" }) {
+    image4: file(relativePath: { eq: "projects/image-5.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    image5: file(relativePath: { eq: "projects/image-3.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid

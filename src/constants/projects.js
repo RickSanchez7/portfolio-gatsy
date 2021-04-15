@@ -72,6 +72,25 @@ export const data = [
   {
     id: 4,
     featured: false,
+    name: "Covid-19 Tracker",
+    description:
+      "A Covid-19 Tracker, showing all the information of each country in charts and in a world map. Mobile Responsive.",
+    stack: ["React", "Styled Components", "Chartjs"],
+    icons: [
+      {
+        icon: <FaGithub className="social-icon"></FaGithub>,
+        url: "https://github.com/RickSanchez7/covid-tracker",
+      },
+      {
+        icon: <FaShareSquare className="social-icon"></FaShareSquare>,
+        url: "https://covid-19-tracker-styled-react.netlify.app/",
+        demo: "Live demo",
+      },
+    ],
+  },
+  {
+    id: 5,
+    featured: false,
     name: "Yoga Website",
     description:
       "For this project, the focus was the style, it's a static website with images and google maps for the address. Mobile Responsive.",
