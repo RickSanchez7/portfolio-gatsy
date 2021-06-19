@@ -40,7 +40,7 @@ export const query = graphql`
         }
       }
     }
-    image3: file(relativePath: { eq: "projects/image-4.png" }) {
+    image3: file(relativePath: { eq: "projects/image-6.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid

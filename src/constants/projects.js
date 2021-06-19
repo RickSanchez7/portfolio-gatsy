@@ -9,7 +9,7 @@ export const data = [
     name: "E-commerce",
     description:
       "For this project I worked with react-router-dom for navigation, useContext for state management, stripe for payments, Google and E-mail Sign-In with google's firebase and all done with funcional components. Mobile Responsive.",
-    stack: ["React", "SCSS", "Firebase", "Stripe"],
+    stack: ["React", "SASS", "Firebase", "Stripe"],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
@@ -30,7 +30,7 @@ export const data = [
       "For this React project, we can search for a movie or tv show from an external Api and display the information. Backend for Register/Sign In. Mobile Responsive.",
     stack: [
       "React",
-      "SCSS",
+      "SASS",
       "Bulma",
       "CI/CD",
       "Jest/Enzyme",
@@ -53,6 +53,25 @@ export const data = [
   {
     id: 3,
     featured: true,
+    name: "Instagram Clone",
+    description:
+      "This is an Instagram Clone where we can create an account, create posts with images, delete and edit them, like posts, comment, follow other users and has dark mode. Mobile Responsive",
+    stack: ["React", "Tailwind", "Firebase", "Cloudinary"],
+    icons: [
+      {
+        icon: <FaGithub className="social-icon"></FaGithub>,
+        url: "https://github.com/RickSanchez7/insta-clone",
+      },
+      {
+        icon: <FaShareSquare className="social-icon"></FaShareSquare>,
+        url: "https://social-networky.netlify.app/",
+        demo: "Live demo",
+      },
+    ],
+  },
+  {
+    id: 4,
+    featured: false,
     name: "Portfolio",
     description:
       "This portfolio was made with the Gatsby framework, perfect for fast websites. Mobile Responsive.",
@@ -70,7 +89,7 @@ export const data = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     featured: false,
     name: "Covid-19 Tracker",
     description:
@@ -89,7 +108,7 @@ export const data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     featured: false,
     name: "Yoga Website",
     description:
