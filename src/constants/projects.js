@@ -8,8 +8,8 @@ export const data = [
     featured: true,
     name: "E-commerce",
     description:
-      "For this project I worked with react-router-dom for navigation, useContext for state management, stripe for payments, Google and E-mail Sign-In with google's firebase and all done with funcional components. Mobile Responsive.",
-    stack: ["React", "SASS", "Firebase", "Stripe"],
+      "For this project I worked with react-router-dom for navigation, useContext and useReducer for state management, stripe for payments, Google and E-mail Sign-In with google's firebase and React Hooks. Mobile Responsive.",
+    stack: ["React", "SCSS", "Firebase", "Stripe", "Jest/React-Testing"],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,

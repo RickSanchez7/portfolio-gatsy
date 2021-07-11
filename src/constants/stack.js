@@ -8,6 +8,7 @@ export const stack = [
   "Gatsby",
   "Nextjs",
   "Nodejs/Express",
+  "Jest/React-Testing",
   "Php",
   "Laravel",
   "MySql",
