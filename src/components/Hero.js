@@ -32,7 +32,7 @@ const Hero = () => {
     return () => {
       document.removeEventListener("scroll", onScroll);
     };
-  });
+  }, []);
 
   const add = transform ? "btn-transform" : "";
 

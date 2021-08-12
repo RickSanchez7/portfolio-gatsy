@@ -6,8 +6,8 @@ import Projects from "./Projects";
 import { data } from "../constants/projects";
 
 const FeaturedProjects = () => {
-  const { image1, image2, image3 } = useStaticQuery(query);
-  const featuredImages = [image1, image2, image3];
+  const { image1, image2, image3, image4 } = useStaticQuery(query);
+  const featuredImages = [image1, image2, image3, image4];
   const featuredData = data.filter(({ featured }) => featured === true);
 
   return (
@@ -41,6 +41,13 @@ export const query = graphql`
       }
     }
     image3: file(relativePath: { eq: "projects/image-6.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    image4: file(relativePath: { eq: "projects/image-7.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid

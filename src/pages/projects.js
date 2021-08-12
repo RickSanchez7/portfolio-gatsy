@@ -7,10 +7,16 @@ import { data } from "../constants/projects";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const ProjectsPage = () => {
-  const { image1, image2, image3, image4, image5, image6 } = useStaticQuery(
-    query
-  );
-  const allImages = [image1, image2, image3, image4, image5, image6];
+  const {
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+    image7,
+  } = useStaticQuery(query);
+  const allImages = [image1, image2, image3, image4, image5, image6, image7];
 
   return (
     <Layout>
@@ -50,14 +56,21 @@ const query = graphql`
         }
       }
     }
-    image4: file(relativePath: { eq: "projects/image-4.png" }) {
+    image4: file(relativePath: { eq: "projects/image-7.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    image5: file(relativePath: { eq: "projects/image-5.jpg" }) {
+    image5: file(relativePath: { eq: "projects/image-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    image6: file(relativePath: { eq: "projects/image-5.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
@@ -65,7 +78,7 @@ const query = graphql`
       }
     }
 
-    image6: file(relativePath: { eq: "projects/image-3.png" }) {
+    image7: file(relativePath: { eq: "projects/image-3.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid

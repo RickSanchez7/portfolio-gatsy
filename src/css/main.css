@@ -138,7 +138,7 @@ button {
 }
 .button-container {
   position: relative;
-  display: block;
+  /* display: block; */
 }
 
 .contact-me-container {
@@ -151,17 +151,12 @@ button {
 
 .contact-me {
   position: absolute;
-  /* display: flex;
-  flex-direction: row; */
-  /* top: 0;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   left: 0;
-  /* right: 4rem; */
   bottom: calc(100% - 2.5rem);
-  min-height: 2.3rem;
-  min-width: 151px;
-  max-width: 151px;
-  text-align: center;
-  /* transition: all 0.5s ease-out; */
   z-index: 5;
 }
 
@@ -174,42 +169,13 @@ button {
   align-items: center;
   justify-content: center;
   position: fixed;
-  /* top: calc(100vh - 7rem); */
   bottom: 3rem;
-  /* right: 7rem; */
   left: calc(100% - 6rem);
   z-index: 10;
-  /* transition: all 5s ease; */
-}
-
-/* @media screen and (max-height: 400px) {
-  .btn-transform {
-    top: 35vw;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .btn-transform {
-    left: 87vw;
-  }
 }
 
 @media screen and (max-width: 800px) {
   .btn-transform {
-    left: 84vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .btn-transform {
-    left: 79vw;
-  }
-} */
-
-@media screen and (max-width: 800px) {
-  .btn-transform {
-    /* left: calc(100vw - 5rem);
-    top: calc(100vh - 5.5rem); */
     bottom: 3rem;
     left: calc(100% - 5rem);
     height: 60px;

@@ -30,7 +30,7 @@ export const data = [
       "For this React project, we can search for a movie or tv show from an external Api and display the information. Backend for Register/Sign In. Mobile Responsive.",
     stack: [
       "React",
-      "SASS",
+      "SCSS",
       "Bulma",
       "CI/CD",
       "Jest/Enzyme",
@@ -71,6 +71,25 @@ export const data = [
   },
   {
     id: 4,
+    featured: true,
+    name: "Sorting Visualizer",
+    description:
+      "In this project, we can visualize the time complexity of different sorting algorithms.",
+    stack: ["React", "TypeScript", "CSS"],
+    icons: [
+      {
+        icon: <FaGithub className="social-icon"></FaGithub>,
+        url: "https://github.com/RickSanchez7/sorting-visualizer-ts",
+      },
+      {
+        icon: <FaShareSquare className="social-icon"></FaShareSquare>,
+        url: "https://react-ts-sorting-visualizer.netlify.app/",
+        demo: "Live demo",
+      },
+    ],
+  },
+  {
+    id: 5,
     featured: false,
     name: "Portfolio",
     description:
@@ -89,7 +108,7 @@ export const data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     featured: false,
     name: "Covid-19 Tracker",
     description:
@@ -108,12 +127,12 @@ export const data = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     featured: false,
     name: "Yoga Website",
     description:
       "For this project, the focus was the style, it's a static website with images and google maps for the address. Mobile Responsive.",
-    stack: ["HTML", "CSS", "Javascript"],
+    stack: ["HTML", "CSS", "Javascript", "Parcel"],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
