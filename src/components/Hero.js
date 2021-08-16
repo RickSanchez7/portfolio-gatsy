@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "gatsby-image";
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -24,6 +25,7 @@ const Hero = () => {
         setTransform(false);
       }
     };
+    console.log(window.scrollY);
 
     // setting the event handler from web API
     document.addEventListener("scroll", onScroll);
@@ -34,7 +36,7 @@ const Hero = () => {
     };
   }, []);
 
-  const add = transform ? "btn-transform" : "";
+  const add = transform ? "btn-slide" : "";
 
   return (
     <header className="hero">
@@ -46,9 +48,9 @@ const Hero = () => {
             <h4>web Developer</h4>
             <div className="button-container">
               <div className="contact-me-container">
-                <Link to="/contact" className={`btn contact-me ${add}`}>
-                  {transform ? <HiOutlineMail size={50} /> : "contact me"}
-                </Link>
+                <AniLink fade to="/contact" className={`btn contact-me`}>
+                  contact me
+                </AniLink>
               </div>
             </div>
             <SocialLinks />
@@ -56,6 +58,9 @@ const Hero = () => {
         </article>
         <Image fluid={fluid} className="hero-img" />
       </div>
+      <AniLink fade to="/contact" className={`btn btn-transform ${add}`}>
+        <HiOutlineMail size={50} />
+      </AniLink>
     </header>
   );
 };
