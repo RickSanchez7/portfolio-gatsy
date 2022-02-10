@@ -25,7 +25,6 @@ const Hero = () => {
         setTransform(false);
       }
     };
-    console.log(window.scrollY);
 
     // setting the event handler from web API
     document.addEventListener("scroll", onScroll);

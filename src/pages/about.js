@@ -23,9 +23,9 @@ const About = () => {
               applications development.
             </p>
             <p>
-              I started programming out of curiosity. That led me into HTML, CSS
-              & JS which eventually lead me to pursuit software development as a
-              career path.
+              I started programming out of curiosity. That lead me into HTML,
+              CSS & JS which eventually lead me to pursuit software development
+              as a career path.
             </p>
             <Title title="Skills" />
             <div className="stack">
