@@ -33,8 +33,8 @@ jobs:
       - name: copy files to s3
         run: aws s3 sync ./public s3://ricardobcosta --acl public-read
 
-      # - name: Invalidate cache
-      #   run: |
-      #     aws cloudfront create-invalidation \
-      #       --distribution-id E5WDKB9Z09WWL \
-      #       --paths "/*"
+      - name: Invalidate cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E24BWBLW02FOWH \
+            --paths "/*"
