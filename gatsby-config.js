@@ -10,7 +10,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-transition-link`,
-    // `gatsby-plugin-sitemap`,
+    `gatsby-plugin-meta-redirect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,6 +23,14 @@ module.exports = {
       options: {
         name: `projects`,
         path: `${__dirname}/src/assets/projects/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "ricardobcosta",
+        protocol: "https",
+        hostname: "www.ricardobcosta.com",
       },
     },
   ],
