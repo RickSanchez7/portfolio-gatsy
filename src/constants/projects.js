@@ -55,7 +55,7 @@ export const data = [
     featured: true,
     name: "Instagram Clone",
     description:
-      "This is an Instagram Clone where we can create an account, create posts with images, delete and edit them, like posts, comment, follow other users and has dark mode. Mobile Responsive.",
+      "An Instagram Clone where we can create an account, create posts with images, delete and edit them, like posts, comment, follow other users and has dark mode. Mobile Responsive.",
     stack: ["React", "Tailwind", "Firebase", "Cloudinary"],
     icons: [
       {
