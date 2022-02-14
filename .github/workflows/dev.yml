@@ -31,7 +31,7 @@ jobs:
         run: STAGE=dev npm run build
 
       - name: copy files to s3
-        run: aws s3 sync ./public s3://ricardobcosta
+        run: aws s3 sync ./public s3://ricardobcosta --acl public-read
 
       # - name: Invalidate cache
       #   run: |
