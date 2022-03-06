@@ -30,7 +30,7 @@ module.exports = {
       options: {
         bucketName: "ricardobcosta",
         protocol: "https",
-        hostname: "www.ricardobcosta.com",
+        hostname: "http://ricardobcosta-bucket.s3.eu-west-1.amazonaws.com/",
       },
     },
   ],
