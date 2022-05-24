@@ -28,9 +28,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "ricardobcosta",
+        bucketName: "ricardobcosta-bucket",
         protocol: "https",
         hostname: "http://ricardobcosta-bucket.s3.eu-west-1.amazonaws.com/",
+        acl: null,
       },
     },
   ],

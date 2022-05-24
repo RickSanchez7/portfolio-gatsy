@@ -1,16 +1,10 @@
 export const stack = [
   "HTML",
   "CSS",
-  "SASS",
   "JavaScript",
   "React",
   "React-Native",
-  "Gatsby",
-  "Nextjs",
+  "Angular",
   "Nodejs/Express",
   "Jest/React-Testing",
-  "Php",
-  "Laravel",
-  "MySql",
-  "MongoDB",
 ];
