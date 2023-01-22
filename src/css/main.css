@@ -131,7 +131,6 @@ button {
   background: var(--clr-primary-1);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   transform: translateY(-0.25em);
-  transition: transform, box-shadow, 0.3s linear;
 }
 
 @media screen and (max-width: 800px) {
@@ -563,7 +562,7 @@ NavarBar
 
 .project-header {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   align-items: center;
 }
 
@@ -577,11 +576,12 @@ NavarBar
 }
 
 .project-description {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
 }
 
 .stack {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .project-stack {
@@ -593,8 +593,10 @@ NavarBar
   border-radius: var(--radius);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+  font-family: var(--ff-secondary);
 }
 
 .icons {
