@@ -14,11 +14,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/react-app-roupas-live",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://roupas-live.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -42,11 +44,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/FullStack-Movie-Search",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://movie-fullstack.herokuapp.com/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -61,11 +65,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/insta-clone",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://social-networky.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -80,11 +86,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/sorting-visualizer-ts",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://react-ts-sorting-visualizer.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -99,11 +107,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/portfolio-gatsy",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://portfolio2-gatsby.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -118,11 +128,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/covid-tracker",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://covid-19-tracker-styled-react.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },
@@ -137,11 +149,13 @@ export const data = [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/RickSanchez7/Yoga-website",
+        label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
         url: "https://yoga-master-website.netlify.app/",
         demo: "Live demo",
+        label: "Link to Live Demo",
       },
     ],
   },

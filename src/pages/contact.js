@@ -9,11 +9,13 @@ import {
 } from "react-icons/fa";
 
 import Layout from "../components/Layout";
+import { SEO } from "../components/Seo";
 import Title from "../components/Title";
 
 const contact = () => {
   return (
     <Layout>
+      <SEO title="Contacts" description="Here you have my contacts" />
       <section className="contact-page">
         <div className="contact-center">
           <Title title="Contact" />

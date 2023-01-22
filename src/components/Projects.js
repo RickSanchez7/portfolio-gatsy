@@ -27,15 +27,16 @@ const Projects = ({ imageQuery, data }) => {
               ))}
             </div>
             <div className="icons">
-              {icons.map(({ url, icon, demo }, index) => (
+              {icons.map(({ url, icon, demo, label }, index) => (
                 <a
                   key={index + 100}
                   href={url}
                   target="_blank"
                   rel="noreferrer"
                   className="social-link-project"
+                  aria-label={label}
                 >
-                  {icon} {demo ? <h6>{demo}</h6> : ""}
+                  {icon} {demo ? <h4 className="demo">{demo}</h4> : ""}
                 </a>
               ))}
             </div>

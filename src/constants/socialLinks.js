@@ -6,11 +6,13 @@ const data = [
     id: 1,
     icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://github.com/RickSanchez7",
+    label: "link to Github",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
     url: "https://www.linkedin.com/in/ricardo-costa-973b92188/",
+    label: "link to Linkedin",
   },
 ];
 
@@ -22,6 +24,7 @@ const links = data.map(link => {
         className="social-link"
         target="_blank"
         rel="noreferrer"
+        aria-label={link.label}
       >
         {link.icon}
       </a>

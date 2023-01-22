@@ -370,6 +370,11 @@ NavarBar
   margin-right: auto;
   margin-top: 0.75rem;
 }
+
+.dev {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
 .section {
   padding: 5rem 0 2rem 0;
 }
@@ -415,6 +420,7 @@ NavarBar
   position: absolute;
   width: 7rem;
   z-index: 10;
+  margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -615,7 +621,7 @@ NavarBar
   color: var(--clr-primary-4);
 }
 
-.social-link-project h6 {
+.social-link-project h4 {
   margin-left: 3px;
   font-size: 0.9rem;
 }

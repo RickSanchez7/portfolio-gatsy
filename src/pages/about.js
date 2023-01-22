@@ -4,6 +4,7 @@ import Title from "../components/Title";
 import Image from "gatsby-image";
 import { stack } from "../constants/stack";
 import { useStaticQuery, graphql } from "gatsby";
+import { SEO } from "../components/Seo";
 const About = () => {
   const {
     file: {
@@ -13,6 +14,7 @@ const About = () => {
 
   return (
     <Layout>
+      <SEO title="About" description="A little about me" />
       <section className="about-page">
         <div className="section section-center about-center">
           <Image fluid={fluid} className="about-img" />

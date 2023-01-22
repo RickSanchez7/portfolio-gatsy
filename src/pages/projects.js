@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Projects from "../components/Projects";
 import { data } from "../constants/projects";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { SEO } from "../components/Seo";
 
 const ProjectsPage = () => {
   const {
@@ -20,6 +21,7 @@ const ProjectsPage = () => {
 
   return (
     <Layout>
+      <SEO title="Projects" description="These are my personal projects." />
       <div className="section featured-container">
         <h2 className="featured-title">
           All Projects<div className="underline"></div>
