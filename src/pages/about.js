@@ -14,7 +14,10 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About" description="A little about me" />
+      <SEO
+        title="About"
+        description="Self-taught and passionate, with experience on fullstack web applications development."
+      />
       <section className="about-page">
         <div className="section section-center about-center">
           <Image fluid={fluid} className="about-img" />

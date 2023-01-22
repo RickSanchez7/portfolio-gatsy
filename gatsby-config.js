@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Ricardo Costa`,
     titleTemplate: "%s · Ricardo Costa WebDev",
-    description: `Hello there, my name is Ricardo Costa, I'm a Software Developer and this is my portfolio.`,
+    description: `Hello there, my name is Ricardo Costa, I'm a Web Developer and this is my portfolio.`,
     image: `/static/favicon.ico`,
     siteUrl: `https://www.ricardobcosta.com`,
   },
