@@ -34,10 +34,6 @@ Variables
 Global Styles
 ===============
 */
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=optional");
-}
 
 *,
 ::after,
@@ -51,7 +47,6 @@ html {
 }
 body {
   font-family: var(--ff-primary);
-  font-display: optional;
   color: var(--clr-grey-1);
   background: var(--clr-white);
   line-height: 1.5;
@@ -118,19 +113,21 @@ button {
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: background, transform, 0.3s linear;
-  transition: background, transform, 0.3s linear;
-  transition: border-radius, height, 1s ease;
   font-size: 0.875rem;
   border: 2px solid transparent;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 0.5s, transform 0.5s;
+  transition-timing-function: ease;
 }
 .btn:hover {
-  background: var(--clr-primary-1);
+  /* background: var(--clr-primary-1); */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   transform: translateY(-0.25em);
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 800px) {

@@ -46,16 +46,14 @@ const Hero = () => {
             <h1>Ricardo Costa</h1>
             <h2 className="dev">Web Developer</h2>
             <div className="button-container">
-              <div className="contact-me-container">
-                <AniLink
-                  fade
-                  aria-label="contact"
-                  to="/contact"
-                  className={`btn contact-me`}
-                >
-                  contact me
-                </AniLink>
-              </div>
+              <AniLink
+                fade
+                aria-label="contact"
+                to="/contact"
+                className={`btn contact-me`}
+              >
+                contact me
+              </AniLink>
             </div>
             <SocialLinks />
           </div>
