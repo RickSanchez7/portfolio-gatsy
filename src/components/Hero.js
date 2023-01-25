@@ -77,7 +77,7 @@ const query = graphql`
     file(relativePath: { eq: "Avatar-Maker.png" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

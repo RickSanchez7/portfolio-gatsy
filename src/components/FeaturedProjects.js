@@ -29,28 +29,28 @@ export const query = graphql`
     image1: file(relativePath: { eq: "projects/image-1.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image2: file(relativePath: { eq: "projects/image-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image3: file(relativePath: { eq: "projects/image-6.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     image4: file(relativePath: { eq: "projects/image-7.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

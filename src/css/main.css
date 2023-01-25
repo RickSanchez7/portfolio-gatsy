@@ -174,7 +174,7 @@ button {
 }
 
 .btn-slide {
-  bottom: 3rem;
+  transform: translateY(-6rem);
 }
 
 @media screen and (max-width: 800px) {
