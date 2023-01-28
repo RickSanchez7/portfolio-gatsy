@@ -349,6 +349,7 @@ NavarBar
   height: 100%;
   background: var(--clr-primary-3);
   position: relative;
+  min-height: 450px;
 }
 .hero::before {
   content: "";
@@ -422,7 +423,7 @@ NavarBar
 
 @media screen and (max-width: 800px) {
   .section {
-    padding: 1rem 0 1rem 0;
+    padding: 1rem;
   }
   .hero {
     height: 70vh;
@@ -432,8 +433,8 @@ NavarBar
     display: none;
   }
   .hero-center {
-    position: absolute;
-    height: 90vh;
+    height: 100%;
+    justify-content: center;
   }
   .hero::before {
     position: unset;
