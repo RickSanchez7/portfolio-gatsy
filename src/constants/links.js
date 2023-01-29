@@ -33,6 +33,7 @@ const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
       <AniLink
+        className="link"
         fade
         activeClassName="active"
         aria-label={link.label}
