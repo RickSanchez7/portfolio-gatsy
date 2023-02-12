@@ -29,7 +29,7 @@ export const data = [
     featured: true,
     name: "MovieDB",
     description:
-      "In this React project, we can search for a movie/tv show like in IMDB. Backend for Register/Sign In. Deployded to an AWS instance. Mobile Responsive.",
+      "In this React project, we can search for a movie/tv show like in IMDB. Backend for Register/Sign In. Deployed to an AWS instance. Mobile Responsive.",
     stack: [
       "React",
       "SCSS",
