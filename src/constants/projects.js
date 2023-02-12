@@ -29,26 +29,28 @@ export const data = [
     featured: true,
     name: "MovieDB",
     description:
-      "For this React project, we can search for a movie or tv show from an external Api and display the information. Backend for Register/Sign In. Mobile Responsive.",
+      "In this React project, we can search for a movie/tv show like in IMDB. Backend for Register/Sign In. Deployded to an AWS instance. Mobile Responsive.",
     stack: [
       "React",
       "SCSS",
       "Bulma",
       "CI/CD",
-      "Jest/Enzyme",
-      "typescript",
+      "Jenkins",
+      "Jest/React-test-library",
+      "Typescript",
       "node/express",
       "mongodb",
+      "aws",
     ],
     icons: [
       {
         icon: <FaGithub className="social-icon"></FaGithub>,
-        url: "https://github.com/RickSanchez7/FullStack-Movie-Search",
+        url: "https://github.com/RickSanchez7/FullStack-MovieSearch",
         label: "Link to Github Repository",
       },
       {
         icon: <FaShareSquare className="social-icon"></FaShareSquare>,
-        url: "https://movie-fullstack.herokuapp.com/",
+        url: "https://www.movies.ricardobcosta.com/",
         demo: "Live demo",
         label: "Link to Live Demo",
       },
