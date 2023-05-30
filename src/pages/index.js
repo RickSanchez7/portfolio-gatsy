@@ -8,7 +8,7 @@ import { SEO } from "../components/Seo";
 export default function Home() {
   return (
     <Layout>
-      <SEO />
+      <SEO titleTemplate="%s · WebDev" />
       <Hero />
       <Projects />
     </Layout>
