@@ -14,11 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.26.1",
+    "gatsby": "2.26.1",
     "gatsby-image": "^2.6.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-robots-txt": "1.5.1",
     "gatsby-plugin-s3": "^0.3.8",
     "gatsby-plugin-sharp": "^2.9.0",
     "gatsby-plugin-sitemap": "^2.12.0",
