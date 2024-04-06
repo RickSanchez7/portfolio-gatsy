@@ -46,12 +46,7 @@ const Hero = () => {
             <h1>Ricardo Costa</h1>
             <h2 className="dev">Web Developer</h2>
             <div className="button-container">
-              <AniLink
-                fade
-                aria-label="contact"
-                to="/contact"
-                className={`btn contact-me`}
-              >
+              <AniLink fade aria-label="contact" to="/contact" className="btn">
                 contact me
               </AniLink>
             </div>
@@ -64,7 +59,7 @@ const Hero = () => {
         fade
         to="/contact"
         aria-label="contact"
-        className={`btn btn-transform ${add}`}
+        className={`btn btn-transform contact-me ${add}`}
       >
         <HiOutlineMail size={50} />
       </AniLink>
